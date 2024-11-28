@@ -18,15 +18,10 @@
     const toggleButton = document.createElement('button');
     toggleButton.textContent = 'Start Director bot';
     toggleButton.style.position = 'fixed';
-    toggleButton.style.top = '10px';
-    toggleButton.style.right = '10px';
+    toggleButton.style.top = '20px';
+    toggleButton.style.right = '310px';
     toggleButton.style.zIndex = 1000;
     toggleButton.style.padding = '10px';
-    toggleButton.style.backgroundColor = '#007bff';
-    toggleButton.style.color = '#fff';
-    toggleButton.style.border = 'none';
-    toggleButton.style.borderRadius = '5px';
-    toggleButton.style.cursor = 'pointer';
 
     document.body.appendChild(toggleButton);
 
